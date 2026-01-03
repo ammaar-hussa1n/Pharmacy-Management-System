@@ -48,6 +48,8 @@ struct Stack {
         return undone;
     }
 
+    //new method to display recent sales
+
     void display() {
         if (top == -1) {
             cout << RED << "No recent sales!\n" << RESET;
